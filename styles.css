@@ -1,0 +1,73 @@
+body {
+	background-color: whitesmoke;
+}
+
+#myCanvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.shapes {
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 195px;
+	height: 84px;
+	position: absolute;
+	background-color: #cae9ff;
+	border: 1px solid #6996e4;
+	border-radius: 5px 0 0 5px;
+	border-right: none;
+	right: 0;
+	top: 20px;
+	text-align: center;
+	padding: 0 5px 0 5px;
+
+	overflow-y: hidden;
+	transition: 1.5s;
+}
+
+.shape {
+	border: 1px solid #6996e4;
+	background-color: #fcdfbf;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.settings {
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;	
+	padding-bottom: 1px;
+}
+
+.shape:hover {
+	background-color: #fbb971;
+}
+
+.setting {
+	display: flex;
+	margin: 0 5px 0 5px;
+	width: 100%;
+	justify-content: space-between;s
+}
+
+input[type="number"] {
+	border-radius: 4px;
+	background-color: whitesmoke;
+	width: 57px;
+	height: 18px;
+	font-size: 16px;
+}
+
+.settings img {
+	width: 24px;
+}

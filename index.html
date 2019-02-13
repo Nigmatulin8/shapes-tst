@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shapes</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<canvas id="myCanvas"></canvas>
+
+	<div class="shapes">
+	    <div class="shape" data-shape="circle">Circle</div>
+	    <div class="shape" data-shape="quad">Quad</div>
+	    <div class="shape" data-shape="triangle">Triangle</div>
+
+	    <div class="shape settings" data-shape="moreSettings">More Settings <img src="down.png" id="updown"> </div>
+		
+		<div class="setting"><div>Fill Color:</div> <input type="color" name="color"  data-settings="dataFillStrokeColor" /></div>
+		<div class="setting"><div>Stroke Color:</div> <input type="color" name="color"  data-settings="dataStrokeColor" /></div>
+		<div class="setting"><div>Stroke Width:</div> <input type="number" name="color" data-settings="dataStrokeWidth" /></div>
+	</div>
+
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
